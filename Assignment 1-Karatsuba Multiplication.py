@@ -21,8 +21,5 @@ def ks_multi(x ,y):
         result=int(10**m*ks_multi(a,c)+10**(int(float(m/2)))*(ks_multi(a,d)+ks_multi(b,c))+ks_multi(b,d))
         return result
 
-ks_multi('35','87');
-
-
 ks_multi('3141592653589793238462643383279502884197169399375105820974944592','2718281828459045235360287471352662497757247093699959574966967627');
 
